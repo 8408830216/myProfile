@@ -4,21 +4,51 @@
 <head>
     <title>My Profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    
 <style>  
-
-   p{
-    color: rgb(247, 247, 102);
+ .header { 
+      text-align: center;
+      color: rgb(247, 247, 102);
     background-color: rgb(82, 160, 134);
+
+
    }
 
+   #nav_bar{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: initial;
+    text-align:center;
+     font-family:'Sofia', cursive;
+     background-color: rgb(189, 160, 122);
+     color: rgb(37, 41, 82);
+
+   }
+
+   a{
+    text-decoration:none;
+   }
+  
+   .iframe{
+
+    border: 0ch;
+   }
+
+   .footer{
+    color: rgb(47, 100, 82);
+
+   }
 </style>
 
 </head>
 
 <body>
 
-    <header>
-        <p><i class="fa fa-user"></i> &nbsp;&nbsp;<strong>Prashant G Patil</strong> &nbsp;&nbsp;&nbsp;&nbsp;
+    <header class="header">
+        <p ><i class="fa fa-user"></i> &nbsp;&nbsp;<strong>Prashant G Patil</strong> &nbsp;&nbsp;&nbsp;&nbsp;
 
             <i class="fa fa-phone-square"></i>&nbsp;&nbsp;
 
@@ -31,7 +61,8 @@
         </p>
     </header>
 
-    <nav>
+   
+    <nav id="nav_bar">
         <a href="home.html" target="My_Frame"> Home </a> &nbsp;&nbsp;&nbsp;
         <a href="techStack.html" target="My_Frame"> Tech stack </a> &nbsp;&nbsp;&nbsp;
         <a href="education.html" target="My_Frame"> Education </a> &nbsp;&nbsp;&nbsp;
@@ -44,15 +75,18 @@
 
 
     </nav>
+
     <br>
 
-    <iframe name="My_Frame" height="500" width="1000">
+    <iframe class="iframe" name="My_Frame" height="450" width="1000">
 
     </iframe>
 
 
 
-    <footer>
+    <footer class="footer">
+        <div>
+
         <p> <strong>Follow Me </strong>&nbsp;&nbsp;
             <a href="https://www.linkedin.com/home" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
             <a href="https://www.google.com/"><i class="fa fa-google fa-1x"></i></a> &nbsp;&nbsp;
@@ -62,6 +96,7 @@
 
 
         </p>
+    </div>
 
 
 
